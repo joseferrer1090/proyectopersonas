@@ -36,7 +36,9 @@ class UserDetailCover extends Component {
             alt="UserProfile"
             style={styleWidth}
           />
-          <h4 style={styleName}>{firstName + " " + lastName}</h4>
+          <a href="/" style={styleName}>
+            <h4>{firstName + " " + lastName}</h4>
+          </a>
         </div>
       </div>
     );
